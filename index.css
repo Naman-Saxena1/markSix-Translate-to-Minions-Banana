@@ -1,0 +1,75 @@
+html 
+{
+    height: 100%;
+    background: url('images/Minions.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-width: 220px;
+}
+
+
+body
+{
+    height: 100%;
+}
+
+#main-div
+{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+h1
+{
+    text-align: center;
+    align-self: center;
+    background-color: #31708E;
+    padding: 2rem;
+    border-radius: 6rem;
+    color: white;
+    width: 90%;
+}
+
+#content
+{
+    display: flex;
+    flex-direction: column;
+}
+
+#input-txt
+{
+    align-self: center;
+    padding: 3rem;
+    width: 70%;
+    height: 35%;
+    border-radius: 2rem;
+}
+
+#btn-div
+{
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+}
+
+#btn-translate
+{
+    width :fit-content;
+    padding: 1.5rem;
+    font-size: xx-large;
+    border-radius: 1.5rem;
+    background-color: yellow;
+}
+
+#output-txt
+{
+    align-self: center;
+    padding: 3rem;
+    width: 70%;
+    height: 35%;
+    border-radius: 2rem;
+    background-color: white;
+}
