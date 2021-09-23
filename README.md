@@ -1,0 +1,1 @@
+This is a JS app that uses API to translate English to Minions Banana Language
